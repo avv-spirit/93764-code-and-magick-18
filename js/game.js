@@ -14,7 +14,7 @@ window.GameConstants = {
       return 1.377 * width;
     },
     getX: window.getWizardX || function (width) {
-      return width / 2;
+      return width / 3;
     },
     getY: window.getWizardY || function (height) {
       return height - 100;

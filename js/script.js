@@ -27,6 +27,7 @@ getWizardX();
 
 
 var getWizardY = function (height) {
-  return height * 0.5;
+  height = height * 2/3;
+  return height;
 };
 getWizardY();
